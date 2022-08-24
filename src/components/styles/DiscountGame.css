@@ -1,0 +1,23 @@
+.gameBody {
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.gameBody h1 {
+  color: white;
+  border-bottom: 1px solid whitesmoke;
+}
+
+iframe {
+  width: 35rem;
+  height: 80vh;
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+  iframe {
+    width: 100%;
+    border: none;
+  }
+}
